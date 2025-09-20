@@ -14,7 +14,7 @@ public class Problem3 {
             int len = x.length();
 
             if (len > m) {
-                m = len;
+                m = len;;
                 answer = x;
             }
         }
