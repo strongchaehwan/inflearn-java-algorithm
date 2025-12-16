@@ -6,8 +6,8 @@ public class Problem2 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        String str = scanner.next();
-        char[] charArray = str.toCharArray();
+        String str = scanner.next(); // 문자열 입력받고
+        char[] charArray = str.toCharArray(); // 그 문자열을 문자 배열로 변형시키고
 
         String result = "";
 
